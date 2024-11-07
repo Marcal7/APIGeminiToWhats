@@ -16,7 +16,7 @@ from undetected_chromedriver import Chrome
 from undetected_chromedriver import ChromeOptions
 
 # Configura a API Google Gemini
-genai.configure(api_key='AIzaSyCUNeoSQTLsWoQIBqng14e-bfHT6Sk95pI')
+genai.configure(api_key='Key')
 model = genai.GenerativeModel(model_name="gemini-1.5-flash-001")
 
 context_messages = []
